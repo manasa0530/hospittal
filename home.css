@@ -12,6 +12,11 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.header-nv{
+display: flex;
+justify-content: space-between;
+padding: 7px;
+}
 p{
     margin-bottom: 0px !important;
 }
@@ -178,10 +183,7 @@ p{
     text-align: right;
     gap: 20px;
     margin: 20px;
-}
-.emergency{
-    
-}
+} 
 .emg1{
     text-align: left;
 }
@@ -258,8 +260,19 @@ p{
   background-size: cover;
   background-position: center;
 }
+
+.hero2{
+     background-image: url(assets/cc1.jpeg);
+}
+.bst-dr{
+background-image: url(assets/cc1.jpeg);
+}
+.bst-srv,.hero3{
+    background-image: url(assets/service-scaled.jpg);
+}
+
 .best-tbl{
-    gap: 0.5px;
+    gap: 0.6px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -276,6 +289,13 @@ p{
     align-items: center;
     width: 55%;
 }
+.abt-best{
+     height: 40vh !important;
+}
+.abt-hero{
+    height: 40vh !important;
+}
+
 .card2{
     width: 47%;
 background-color: white;
@@ -305,7 +325,7 @@ padding: 20px;
     background-color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 0px 0px 10px 1px;
+    box-shadow: 0px 0px 10px gray;
 }
 .dr-name{
     padding: 7px;
@@ -477,12 +497,21 @@ a{
     padding: 12px;
     color: white;
 }
+.lorem{
+    font-size: 17px;
+}
 @media screen and (max-width:750px){
     .start-letter{
         flex-wrap: wrap;
         text-align: center;
         display: flex;
         flex-direction: column;;
+    }
+    .header-nv{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
     .welcoming-div{
         flex-wrap: wrap;
@@ -620,6 +649,86 @@ a{
         font-size: 15px;
         padding: 5px;
     }
+    .abt-block{
+        flex-wrap: wrap;
+    }
+    .down-block{
+        padding: 0px !important;
+        padding-bottom: 20px !important;
+    }
+    .abt-card{
+        width: 95% !important;
+    }
+    .about-img{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .abt-img{
+        width: 95% !important;
+    }
+    .service-whole{
+        margin: 0px !important;
+    }
+    .whole-divs{
+        flex-wrap: wrap;
+        margin: auto !important;
+        justify-content: center;
+    }
+    .serv-subdiv{
+        flex-wrap: wrap;
+        gap: 0px !important;
+    }
+    .serv-div{
+        width: 100% !important;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .service-content{
+        padding: 10px !important;
+    }
+    .medicare{
+        width: 250px !important;
+        padding: 10px;
+    }
+    .about-us{
+        font-size: 25px !important;
+    }
+    .seq{
+        font-size: 15px !important;
+        align-items: center !important;
+        gap: 5px !important;
+        font-weight: 500;
+    }
+    .doctor-div{
+        margin: 0px !important;
+    }
+    .doctor-container{
+        margin: 0px !important;
+    }
+    .doc-card{
+        width: 90% !important;
+    }
+    .cont-whole{
+        flex-wrap: wrap;
+        margin: 0px !important;
+    }
+    .address{
+        width: 95% !important;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .addre{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .form-vall{
+        padding: 20px !important;
+    }
+    .txt{
+        font-size: 17px !important;
+        font-weight: 500 !important;
+    }
 }
-
 

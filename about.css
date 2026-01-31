@@ -1,0 +1,236 @@
+.abt-home{
+    text-align: center;
+    color: white;
+    margin: auto;
+    
+}
+.seq{
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.about-us{
+    font-size: 30px;
+    font-weight: 700;
+}
+.abt-block{
+    display: flex;
+    margin: 20px;
+text-align: center;
+align-items: center;
+}
+.small-block{
+    margin: 20px;
+
+}
+.abt-img{
+    width: 250px;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+.about-img{
+    display: flex;
+    gap: 10px;
+}
+.abt-card{
+    background-color: white;
+    color: #223A66;
+    padding: 20px;
+    box-shadow: 1px 1px 7px gray;
+    width: 42%;
+    padding-bottom: 20px;
+}
+.down-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.whole-divs{
+    display: flex;
+    margin: 20px;
+    gap: 7px;
+    align-items: center;
+}
+.medicare{
+    width: 350px;
+
+}
+.service-whole{
+    margin: 20px;
+}
+.serv-subdiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.service-content{
+    padding: 30px;
+}
+.serv-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 45%;
+    padding: 5px;
+}
+.list1{
+    color: #223A66;
+    font-size: 30px;
+    padding: 10px;
+}
+.clnt1{
+    font-size: 25px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.doctor-div{
+    margin: 40px;
+    margin-bottom: 40px;
+}
+.doctor-container{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.doc-card{
+    width: 32%;
+    padding: 10px;
+    margin: auto;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 5px 10px 10px gray;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.doc-card:hover{
+    background-color: rgb(218, 197, 209);
+}
+.social1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.doc-img{
+    width: 300px;
+}
+.brds{
+    border-radius: 50%;
+    align-items: center;
+}
+.utube1{
+    font-size: 25px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(218, 53, 53);
+}
+.twitter1{
+    color:  cornflowerblue;
+    font-size: 32px;
+    padding: 5px;
+}
+.fb1{
+    font-size: 30px;
+    padding: 5px;
+}
+.link1{
+    font-size: 32px;
+    color: rgb(55, 101, 187);
+    padding: 5px;
+}
+.dr-nm{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    color: #223A66;
+}
+.cont-whole{
+    margin: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.address{
+    gap: 20px;
+    width: 50%;
+}
+.addre{
+    background-color: #223A66;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.loc{
+    font-size: 30px;
+    padding: 20px;
+
+}
+.form-vall{
+    background-color: rgb(247, 232, 232);
+    padding: 50px;
+    width: 100%;
+}
+    .form-label {
+      font-weight: bold;
+      margin-top: 35px;
+      display: block;
+    }
+
+    .required {
+      color: red;
+    }
+    .nam{
+        width: 50%;
+    }
+    .name-group{
+      display: flex;
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+    .input-field,
+    .textarea-field {
+      width: 100%;
+      padding: 2px;
+    }
+    .email-field{
+        width: 50%;
+    }
+
+    .textarea-field {
+      height: 150px;
+    }
+
+    .submit-btn {
+      margin-top: 15px;
+      padding: 8px 20px;
+      color: white;
+      font-weight: 700;
+      background-color: rgb(5, 85, 137);
+      border: 0px;
+      border-radius: 5px;
+    }
+    .txt{
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
